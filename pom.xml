@@ -113,6 +113,9 @@
                 <configuration>
                     <excludes>
                         <exclude>
+                            <goals>
+                                <goal>java</goal>
+                            </goals>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
@@ -120,6 +123,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <defaultGoal>spring-boot:run</defaultGoal>
     </build>
 
 </project>
